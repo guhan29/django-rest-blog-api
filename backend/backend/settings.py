@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 # new
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_LASSES': [
-        'rest_framework.permissions.AllowAny'
+        'rest_framework.permissions.AllowAny',
     ]
 }
 
